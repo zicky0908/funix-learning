@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+
+  /* Menu style */
+  .menu {
+    background-color: rgb(69, 87, 112);
+    display: flex;
+    justify-content: center;
+  }
+
+  div.menuLeft, div.menuRight {
+    float: left;
+  }
+
+  li {
+    margin: 0 20px 0 20px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+  }
+  
+  li a:visited {
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+  }
+
+  div.bannerText {
+    position:relative;
+    top: 0px;
+    left: 0px;
+  }
+}

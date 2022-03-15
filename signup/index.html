@@ -1,0 +1,49 @@
+<html>
+  <style>
+    .box {
+      width: 360px;
+      height: 500px;
+      margin: 0 auto;
+      background-color: rgb(235, 227, 227);
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .label {
+      
+      float: 100px
+    }
+    .textbox {
+      float: right;
+      width: 200px
+    }
+  </style>
+
+  <body style="background-color: rgb(170, 162, 162)">
+    <div class="box" text-align="center">
+
+      <img src="../Funix_banner.png" width="60%" margin="0 auto">
+      <p style="color: rgb(231, 67, 67);font-size: 30px;"><b>Sign up</b></p>
+      <p>Create your account with email address</p><br><br>
+
+      <form action="#" style="text-align: center; width: 100%;">
+        <!-- Email -->
+        <label for="email" class="label">Email</label>
+        <input type="text" id="email" name="signup" class="textbox"><br><br> 
+        <!-- Username -->
+        <label for="username" class="label">Username</label>
+        <input type="text" id="username" name="signup" class="textbox"><br><br>
+        <!-- Password -->
+        <label for="password" class="label">Password</label>
+        <input type="password" id="password" name="signup" class="textbox"><br><br>
+        <!-- Confirm Password -->
+        <label for="confirm_password" class="label">Confirm Password</label>
+        <input type="confirm_password" id="confirm_password" name="signup" class="textbox"><br><br>
+        <!-- Password rule -->
+        <p>Password must have at least 8 characters</p>
+        <input type="submit" value="Register" style="width: 100%">
+      </form>
+    </div>
+  </body>
+</html>

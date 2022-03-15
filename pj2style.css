@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@700&display=swap');
+/* Menu style */
+.menu {
+  background-color: rgb(69, 87, 112);
+  padding: 10px 0 10px 0;
+}
+
+
+div.menuLeft {
+  float: left;
+}
+
+div.menuRight {
+  float: right;
+}
+
+li {
+  display: inline;
+  text-transform:uppercase;
+  padding: 10px 10px 10px 0;
+  margin: 10px 10px 10px 0;
+}
+
+li > a {
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+}
+
+li > a:visited {
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+}
+
+/* Image Column style */
+div.guidesDiv {
+  width: 100%;
+  overflow: hidden;
+}
+
+.row img {
+  margin-bottom: 20px;
+}
+
+.sm-img {
+  width: 100%;
+}
+
+hr.solid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 5px solid rgb(214, 213, 213);
+}
+
+/* Footer style*/
+div.Footer a {
+  text-decoration: none;
+  color: aqua;
+}
+
+div.Footer a:visited {
+  text-decoration: none;
+  color: aqua;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.banner > img {
+  display: none;
+}
+
